@@ -2,6 +2,7 @@ import React from 'react'
 import {motion} from "framer-motion"
 import {styles} from "../styles"
 import {ComputersCanvas} from "./canvas"
+import Typewriter from "typewriter-effect"
 const Hero = () => {
   return (
     <section className='relative w-full 
@@ -16,12 +17,15 @@ const Hero = () => {
           <div className='w-1 h-40 violet-gradient sm:h-80'/>
         </div>
         <div>
-        <h1 className={`${styles.heroHeadText} text-white`}>Hi I'm <span className='text-[#951eff]
-         hover:text-white'>Nachiketh</span></h1>
+        <h1 className={`${styles.heroHeadText} text-white`}>
+        Hi I'm <span className='text-[#951eff] hover:text-white'>
+        <Typewriter onInit={(typewriter) => { typewriter.typeString("Nachiketh").start() }}/>
+        </span>
+        </h1>
          <p className={`${styles.heroSubText} 
          mt-2 text-white-100`}>
-           I am a Full Stack developer I develop  
-           <br className='sm:block hidden'/>web applications, Backend applications
+           I Develop Applications like
+           <br className='sm:block hidden'/>Web, Backend Applications.
           </p>
         </div>
       </div>
