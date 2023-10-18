@@ -19,7 +19,7 @@ const Hero = () => {
         <div>
         <h1 className={`${styles.heroHeadText} text-white`}>
         Hi I'm <span className='text-[#951eff] hover:text-white'>
-        <Typewriter onInit={(typewriter) => { typewriter.typeString("Nachiketh").start() }}/>
+        <Typewriter onInit={(typewriter) => { typewriter.typeString("Nachiketh").pause(3000).deleteAll().typeString("Developer").start() }}/>
         </span>
         </h1>
          <p className={`${styles.heroSubText} 
