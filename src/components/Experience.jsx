@@ -8,7 +8,6 @@ import {textVariant} from "../utils/motion"
 import 'react-vertical-timeline-component/style.min.css'
 
 const ExperienceCard = ({exp})=>{
-  console.log(exp);
   return(
     <VerticalTimelineElement
     contentStyle={{background:"#1d1836", color:"#fff"}}
