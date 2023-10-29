@@ -4,7 +4,6 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
@@ -13,16 +12,14 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    fireflix,
+    bookart,
+    brainsightai,
+    java,
+    mysql,
+    restapi,
+    python,
+
   } from "../assets";
   
   export const navLinks = [
@@ -76,10 +73,7 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    
     {
       name: "React JS",
       icon: reactjs,
@@ -101,76 +95,45 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "MySql",
+      icon: mysql,
     },
+
+    {
+      name: "Python",
+      icon: python,
+    },
+
+    {
+      name: "Java",
+      icon: java,
+    },
+
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
+      name: "restapi",
+      icon: restapi,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Software Developer Intern",
+      company_name: "BrainSightAI",
+      icon: brainsightai,
+      iconBg: "#050A30",
+      date: "July 2023 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Webhooks in type form. Understanding typeform and implementing webhooks in it.",
+        "Api creation for crud operation on db. Inserting the typeform info in db and manipulating other db info.",
+        "Learned the git version control system and used it in the implementations.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
   const testimonials = [
@@ -202,9 +165,35 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "FireFlix",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Platform for entertainment with a subscription. Uses a RESTful API to store user and subscription information.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "express",
+          color: "white-text-gradient",
+        }
+      ],
+      image:fireflix,
+      source_code_link: "https://github.com/iamnachiketh/FireFlix_frontend",
+      deployed_link: "https://wonderful-mandazi-3c1585.netlify.app/"
+    },
+    {
+      name: "Bookart",
+      description:
+        "A full-stack application with JWT-based authentication and permission. Users can register, log in, and reserve hotel rooms.",
       tags: [
         {
           name: "react",
@@ -215,55 +204,18 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
           name: "css",
           color: "pink-text-gradient",
         },
+        {
+          name: "express",
+          color: "white-text-gradient",
+        }
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+      image: bookart,
+      source_code_link: "https://github.com/iamnachiketh/Bookart",
+      deployed_link: "https://famous-empanada-932779.netlify.app/"
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };

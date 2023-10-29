@@ -40,7 +40,7 @@ const ProjectCard = ({index,name,description,tags,image,source_code_link,deploye
           </div>
       </div>
       <div className='mt-5'>
-        <a href='http://localhost:5173' className='text-white font-bold text-[24px]'>{name}</a>
+        <a style={{cursor:'pointer'}} onClick={()=>window.open(deployed_link,"_blank")} className='text-white font-bold text-[24px]'>{name}</a>
         <p className='mt-3 text-secondary text-[14px]'>{description}</p>
       </div>
       <div  className='mt-4 flex flex-wrap gap-2'>
