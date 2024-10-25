@@ -38,10 +38,10 @@ import {
   ];
   
   const services = [
-    {
-      title: "Python Developer",
-      icon: web,
-    },
+    // {
+    //   title: "Python Developer",
+    //   icon: web,
+    // },
     {
       title: "Java Developer",
       icon: web,
@@ -51,13 +51,17 @@ import {
       icon: mobile,
     },
     {
-      title: "Express.js Developer",
+      title: "Node.js Developer",
       icon: backend,
     },
     {
       title: "API Design",
       icon: creator,
     },
+    {
+      title: "Authentication",
+      icon: backend,
+    }
   ];
   
   const technologies = [
@@ -78,14 +82,14 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
     {
       name: "Node JS",
       icon: nodejs,
@@ -99,10 +103,10 @@ import {
       icon: mysql,
     },
 
-    {
-      name: "Python",
-      icon: python,
-    },
+    // {
+    //   name: "Python",
+    //   icon: python,
+    // },
 
     {
       name: "Java",
