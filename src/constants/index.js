@@ -46,25 +46,25 @@ import {
       metric: "1M/day",
       label: "SIM sync jobs",
       detail:
-        "Built and ran Airtel SIM management scripts syncing statuses and dates at million-record daily scale.",
+        "Built and ran Airtel SIM management scripts syncing statuses and dates at million record daily scale.",
     },
     {
       metric: "8K",
       label: "Vehicles analyzed",
       detail:
-        "Go checkpoint logic and PostgreSQL loads on IoT movement data — reports for 10+ clients.",
+        "Go checkpoint logic and PostgreSQL loads on IoT movement data. Reports for 10+ clients.",
     },
     {
-      metric: "20m → 30s",
+      metric: "20m to 30s",
       label: "Release time",
       detail:
-        "GitHub Actions CI/CD for a Go service: auto-deploy to dev, manually gated prod via SSH.",
+        "GitHub Actions CI/CD for a Go service: auto deploy to dev, manually gated prod via SSH.",
     },
     {
       metric: "7",
       label: "Modules owned",
       detail:
-        "End-to-end ownership — requirements, schema, APIs, deployment, and production support.",
+        "End to end ownership: requirements, schema, APIs, deployment, and production support.",
     },
     {
       metric: "Award",
@@ -89,7 +89,7 @@ import {
     },
     {
       label: "LinkedIn",
-      value: "linkedin.com/in/nachiketh-k-c-a94a30247",
+      value: "Nachiketh K C",
       href: "https://linkedin.com/in/nachiketh-k-c-a94a30247",
       external: true,
     },
@@ -175,15 +175,15 @@ import {
       company_name: "Intellicar Telematics",
       icon: "/intellicar_logo.jpeg",
       iconBg: "#FFFFFF",
-      date: "Mar 2025 – Present",
+      date: "Mar 2025 to Present",
       points: [
         "Owned 7 backend modules end to end across client and internal projects: requirements, schema design, APIs, deployment, and production support.",
         "Built and ran Airtel SIM management scripts syncing SIM statuses for 1M SIMs per day.",
         "Wrote analytical scripts on IoT movement data for 8K vehicles (Go checkpoint logic, PostgreSQL loads); powered graph/CSV reports for 10+ clients.",
-        "Built a GitHub Actions CI/CD pipeline for a Go service (auto-deploy to dev, gated prod), cutting release time from 20 min to 30 sec.",
-        "Built reusable Node.js libraries for third-party API integrations (auth, retries, error handling) shared across projects.",
+        "Built a GitHub Actions CI/CD pipeline for a Go service (auto deploy to dev, gated prod), cutting release time from 20 min to 30 sec.",
+        "Built reusable Node.js libraries for third party API integrations (auth, retries, error handling) shared across projects.",
         "Acted as direct client contact: requirements, demos, and status updates; mentored 2 newer engineers and reviewed PRs.",
-        "Converted sequential processing to parallel in a legacy Express codebase, cutting response time by ~10 sec.",
+        "Converted sequential processing to parallel in a legacy Express codebase, cutting response time by about 10 sec.",
         "Use Claude Code and Cursor daily to navigate legacy code, write tests, and review PRs.",
       ],
     },

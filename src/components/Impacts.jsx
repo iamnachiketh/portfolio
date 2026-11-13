@@ -43,7 +43,7 @@ const Impacts = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Production outcomes from owning backend modules end to end — scale,
+        Production outcomes from owning backend modules end to end: scale,
         speed, and recognition that show how the work lands in the real world.
       </motion.p>
 

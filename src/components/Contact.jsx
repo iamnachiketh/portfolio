@@ -16,8 +16,8 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Connect.</h3>
         <p className="mt-4 text-secondary text-[16px] leading-[28px] max-w-md">
-          Open to backend roles and collaborations. Reach out directly — I
-          respond fastest over email or LinkedIn.
+          Open to backend roles and collaborations. Reach out directly.
+          I respond fastest over email or LinkedIn.
         </p>
 
         <div className="mt-10 flex flex-col gap-5">

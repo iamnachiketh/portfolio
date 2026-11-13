@@ -38,7 +38,7 @@ const Hero = () => {
          <p className={`${styles.heroSubText} 
          mt-2 text-white-100`}>
            Backend engineer building telematics platforms
-           <br className='sm:block hidden'/>and data-heavy services in Go & Node.js.
+           <br className='sm:block hidden'/>and data heavy services in Go and Node.js.
           </p>
         </div>
       </div>

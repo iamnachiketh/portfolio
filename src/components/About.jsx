@@ -44,9 +44,9 @@ const About = () => {
     className='mt-4 text-secondary text-[17px]
     max-w-3xl leading-[30px] ml-[10px]'>
        Backend engineer with production experience in Go, PostgreSQL, and Node.js,
-       building telematics platforms and data-heavy backend services. I own modules
-       end to end, work directly with clients, and run jobs at 1M-records/day scale.
-       Focused on AI / agentic engineering — I use Claude Code and Cursor daily to
+       building telematics platforms and data heavy backend services. I own modules
+       end to end, work directly with clients, and run jobs at 1M records/day scale.
+       Focused on AI / agentic engineering. I use Claude Code and Cursor daily to
        accelerate development. B.E. in Computer Science from NMAMIT, Nitte.
     </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>
