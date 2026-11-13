@@ -18,14 +18,27 @@ const Hero = () => {
         </div>
         <div>
         <h1 className={`${styles.heroHeadText} text-white`}>
-        <Typewriter onInit={(typewriter)=>{typewriter.typeString("Hi I'm").pause(2000).deleteAll().typeString("This is my").start()}}/> <span className='text-[#951eff] hover:text-white'>
-        <Typewriter onInit={(typewriter) => { typewriter.pause(6000).typeString("Nachiketh").pause(2000).deleteAll().typeString("Portfolio").start()}}/>
-        </span>
+          <Typewriter
+            options={{
+              loop: true,
+              delay: 75,
+              deleteSpeed: 40,
+            }}
+            onInit={(typewriter) => {
+              typewriter
+                .typeString("Hi I'm <span style=\"color:#951eff\">Nachiketh</span>")
+                .pauseFor(2000)
+                .deleteAll()
+                .typeString("This is my <span style=\"color:#951eff\">Portfolio</span>")
+                .pauseFor(2000)
+                .start();
+            }}
+          />
         </h1>
          <p className={`${styles.heroSubText} 
          mt-2 text-white-100`}>
-           I Develop Web Applications and
-           <br className='sm:block hidden'/>Backend Applications.
+           Backend engineer building telematics platforms
+           <br className='sm:block hidden'/>and data-heavy services in Go & Node.js.
           </p>
         </div>
       </div>

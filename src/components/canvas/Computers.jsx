@@ -45,11 +45,13 @@ const ComputersCanvas = ()=>{
       }
   },[])
   return(
+    <div className="w-full h-full cursor-grab active:cursor-grabbing">
      <Canvas
      frameloop="demand"
      shadows
      camera={{position:[20,3,5],fov:25}}
      gl={{preserveDrawingBuffer:true}}
+     style={{ cursor: "inherit" }}
      >
      <Suspense fallback={<CanvasLoader/>}>
        <OrbitControls 
@@ -61,6 +63,7 @@ const ComputersCanvas = ()=>{
        </Suspense>
      <Preload all/>
      </Canvas>
+    </div>
   )
 }
 

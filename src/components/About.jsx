@@ -43,11 +43,11 @@ const About = () => {
     variants={fadeIn("","",0.1,1)}
     className='mt-4 text-secondary text-[17px]
     max-w-3xl leading-[30px] ml-[10px]'>
-       I'm a skilled software developer with experience in JavaScript, Java, MySQL,
-       MongoDB, JWT, Object Oriented Programming with Java, Docker  
-       and expertise in frameworks like React.JS, Node.JS. 
-       I'm a quick learner and designed user-friendly solutions that solve
-       real-world problems. Let's work together to bring your ideas to life!
+       Backend engineer with production experience in Go, PostgreSQL, and Node.js,
+       building telematics platforms and data-heavy backend services. I own modules
+       end to end, work directly with clients, and run jobs at 1M-records/day scale.
+       Focused on AI / agentic engineering — I use Claude Code and Cursor daily to
+       accelerate development. B.E. in Computer Science from NMAMIT, Nitte.
     </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>
       {services.map((service,index)=>{
