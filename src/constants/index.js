@@ -112,6 +112,18 @@ import {
       title: "CI/CD & DevOps",
       icon: creator,
     },
+    {
+      title: "Linux",
+      icon: backend,
+    },
+    {
+      title: "Claude Code",
+      icon: web,
+    },
+    {
+      title: "Cursor",
+      icon: creator,
+    },
   ];
   
   const technologies = [
